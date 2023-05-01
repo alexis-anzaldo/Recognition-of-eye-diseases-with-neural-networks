@@ -7,10 +7,25 @@
 
 From the dataset we select the following labels:
 
-*   Normal
-*   Diabetes
-*   Glaucoma
-*   Cataract
-*   AMD: age-related macular degeneration
-*   Hypertension
-*   Myopia
+*   Normal (N)
+*   Diabetes (D)
+*   Glaucoma (G)
+*   Cataract (C)
+*   Age-related macular degeneration (M)
+*   Hypertension (H)
+*   Myopia (M)
+
+### Contrast modification
+#### First, the contrast of the images was modified with the contrast-limited adaptive histogram equalization (CLAHE) method.
+<img src="https://github.com/alexisanzaldo/Recognition-of-eye-diseases-with-neural-networks/blob/main/images/original.png" width=35% height=35%> <img src="https://github.com/alexisanzaldo/Recognition-of-eye-diseases-with-neural-networks/blob/main/images/Clahe.png" width=35% height=35%>
+
+### Data distribution
+#### Then, the data were augmented with random rotation, zoom-in, zoom-out, brightness, horizontal flip, and vertical flip.
+<img src="https://github.com/alexisanzaldo/Recognition-of-eye-diseases-with-neural-networks/blob/main/images/originaldata.png" width=35% height=35%> <img src="https://github.com/alexisanzaldo/Recognition-of-eye-diseases-with-neural-networks/blob/main/images/augmenteddata.png" width=35% height=35%>
+
+### Example of the final images
+<img src="https://github.com/alexisanzaldo/Recognition-of-eye-diseases-with-neural-networks/blob/main/images/training_images.png" width=55% height=55%>
+
+### Results
+<img src="https://github.com/alexisanzaldo/Recognition-of-eye-diseases-with-neural-networks/blob/main/images/results.png" width=55% height=55%> 
+
